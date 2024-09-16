@@ -1,0 +1,135 @@
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    display:  flex;
+    padding: 20px 10px;
+    vertical-align: middle;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+}
+
+ul, h1, figure {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(174, 174, 104);
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body-container aside {
+    padding: 20px;
+    background-color: grey;
+}
+
+.body-container aside ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.body-container aside ul li {
+    padding: 10px 15px;
+    background-color: beige;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.body-container article {
+    padding: 20px;
+}
+
+.body-container article .filter {
+    text-align: center;
+}
+
+.body-container article button {
+    margin:  0 10px;
+}
+
+.body-container article .news-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.body-container article .news-card{
+    width: 250px;
+    text-align: center;
+    background-color: #f0eff2;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.body-container article .news-card figcaption{
+    /* white-space: nowrap; */
+    /* overflow-x: scroll; */
+    padding: 10px 0 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.body-container article .news-card .line {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid rgb(16, 16, 63);
+    width: 30%;
+} 
+
+.body-container article .news-card .author {
+    text-align: left;
+    padding: 5px;
+}
+
+.body-container article .news-card figcaption::after{
+    content: ' 😍';
+    /* content: ' - &#128522;'; */
+    /* &#128522; U+1F60A */
+}
+
+/* .body-container article .head p:nth-of-type(2) { */
+/* .body-container article .head p:nth-child(2) { */
+.body-container article .head p:first-child + p {
+    font-weight: bold;
+}
+
+/* .demo {
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.demo1 {
+    clear: left;
+    padding: 10px;
+    border: 1px solid green;
+} */

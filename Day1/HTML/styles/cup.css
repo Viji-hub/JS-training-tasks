@@ -1,0 +1,59 @@
+.coffee-cup {
+  width: 300px;
+  height: 200px;
+  top: 200px;
+  position: relative;
+  margin: 50px auto;
+  text-align: center;
+}
+.coffee-cup .bubble {
+  width: 30px;
+  height: 30px;
+  top: 17px;
+  left: 90px;
+  position: absolute;
+  background-color: #7470265e;
+  border-radius: 50%;
+  opacity: 0;
+  animation: bubbleUp 10s ease 200ms infinite;
+}
+.coffee-cup .bubble2 {
+  top: 0;
+  left: 110px;
+  animation: bubbleUp 12s ease 0ms infinite;
+}
+.coffee-cup .bubble3 {
+  top: 20px;
+  left: 135px;
+  animation: bubbleUp 10s ease 300ms infinite;
+}
+.coffee-cup .bubble4 {
+  top: 0;
+  left: 160px;
+  animation: bubbleUp 12s ease 100ms infinite;
+}
+.coffee-cup .bubble5 {
+  left: 180px;
+  animation: bubbleUp 10s ease 400ms infinite;
+}
+
+@keyframes bubbleUp {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-100px);
+    opacity: 0.8;
+  }
+  75% {
+    transform: translateY(-160px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-180px);
+    opacity: 0.3;
+  }
+}
+
+

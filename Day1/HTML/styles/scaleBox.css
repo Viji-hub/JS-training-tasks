@@ -1,0 +1,47 @@
+body {
+  width: 100vh;
+  height: 90vh;
+}
+.scaleBox {
+  background-color: rgb(211, 133, 133);
+  width: 50px;
+  height: 50px;
+  top: 45%;
+  left: 45%;
+  position: absolute;
+  border-radius: 3px;
+  animation-name: scaleBox;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scaleBox {
+  0% {
+    transform: scale(2, 2);
+    background-color: aquamarine;
+  }
+  20% {
+    transform: scale(6, 4);
+    background-color: rgb(156, 107, 172);
+  }
+  40% {
+    transform: scale(8, 6);
+    background-color: rgb(7, 154, 44);
+  }
+  50% {
+    transform: scale(10, 8);
+    background-color: rgb(198, 184, 162);
+  }
+  60% {
+    transform: scale(8, 6);
+    background-color: rgb(118, 39, 145);
+  }
+  80% {
+    transform: scale(6, 4);
+    background-color: rgb(128, 85, 22);
+  }
+  100% {
+    transform: scale(4, 2);
+    background-color: rgb(56, 2, 49);
+  }
+}

@@ -1,0 +1,6 @@
+.box-wrapper {
+    height: 150px;
+}
+.box-wrapper, .box {
+    border: 1px solid black;
+}

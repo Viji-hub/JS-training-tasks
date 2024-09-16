@@ -1,0 +1,50 @@
+.cup-container {
+  width: 100vh;
+  height: 100vh;
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  background-color: #7470265e;
+}
+
+.bubble1 {
+  top: 50%;
+  left: 67%;
+  animation: bubbleUp 3s ease -2s infinite;
+}
+
+.bubble2 {
+  top: 50%;
+  left: 70%;
+  animation: bubbleUp 3.3s ease -1s infinite;
+}
+
+.bubble3 {
+  top: 50%;
+  left: 73%;
+  animation: bubbleUp 3.6s ease 1s infinite;
+}
+
+@keyframes bubbleUp {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    top: 40%;
+    opacity: 0.6;
+  }
+  50% {
+    top: 30%;
+    opacity: 0.4;
+  }
+  75% {
+    top: 20%;
+    opacity: 0.2;
+  }
+  100% {
+    top: 15%;
+    opacity: 0.1;
+  }
+}

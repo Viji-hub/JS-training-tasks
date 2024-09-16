@@ -1,0 +1,16 @@
+.task-row {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px;
+}
+
+.editBtn, .doneBtn {
+    margin: 0 10px;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.hide {
+    display: none;
+}
